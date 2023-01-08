@@ -107,3 +107,4 @@
     
 })(jQuery);
 
+document.getElementById("myexperience").innerHTML = (new Date().getFullYear()-2016) + " + Years Experience";
