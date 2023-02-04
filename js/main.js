@@ -92,6 +92,33 @@
     });
     
     
+    // Testimonials carousel
+    $(".app-carousel").owlCarousel({
+	    loop: true,
+	    autoplay: true,
+	    margin:30,
+        stagePadding: 30,
+	    animateOut: 'fadeOut',
+	    animateIn: 'fadeIn',
+	    nav:false,
+	    dots: false,
+	    autoplayHoverPause: false,
+        responsive: {
+            0:{
+                items:1
+            },
+            600:{
+                items:2
+            },
+            1000:{
+                items:3
+            },
+            1600:{
+                items:5
+            }
+        }
+    });
+    
     
     // Portfolio filter
     var portfolioIsotope = $('.portfolio-container').isotope({
